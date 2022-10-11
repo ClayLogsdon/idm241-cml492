@@ -1,12 +1,13 @@
 body {
-    background-color: rgba(159, 154, 155, 0.133);
+    background-color: #0c131b;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;   
+    margin: 40px;
 }
 
 .alpha-title {
     text-align: center;
-    color: #0038a8;
-
+    color: #128C7E;
     font-size: 16px;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -14,11 +15,42 @@ body {
     margin-inline-end: 0px;
 }
 
+.button {
+    background-color: #128C7E;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 11px 30px;
+    text-decoration: none;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #149989;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 11px 30px;
+    text-decoration: none;
+}
+
 .alpha-info-title {
-
-    color: #0038a8;
+    color: #128C7E;
     padding-left: 12px;
+    margin-bottom: 10px;
+    
+}
 
+.alpha-info-title-2 {
+    color: #128C7E;
+    padding-left: 12px;
+    margin-top: 80px;
+    position: relative;
     
 }
 
@@ -27,7 +59,8 @@ body {
     width: 97%;
     margin: 10px;
     padding: 10px;
-    border: 2px solid #0038a8;
+    border: 2px solid #128C7E;
+ 
 
     /*  
 
@@ -54,7 +87,7 @@ body {
     width: 97%;
     margin: 10px;
     padding: 10px;
-    border: 2px solid #0038a8;
+    border: 2px solid #128C7E;
 
     
 }
@@ -64,7 +97,7 @@ body {
     width: 97%;
     margin: 10px;
     padding: 10px;
-    border: 2px solid #0038a8;
+    border: 2px solid #128C7E;
 }
 
 .loops-modes-box {
@@ -72,25 +105,197 @@ body {
     width: 97%;
     margin: 10px;
     padding: 10px;
-    border: 2px solid #0038a8;
+    border: 2px solid #128C7E;
 }
 
 .alpha-images-title {
-    color: #0038a8;
+    color: #128C7E;
     padding-left: 12px;
 
     
+}
+
+.alpha-image-1 {
+    max-width:45%;
+    height:auto; 
+    padding-left: 12px;
+}
+
+.alpha-image-2 {
+    max-width:45%;
+    height:auto; 
+    padding-left: 12px;
+}
+
+.alpha-image-3 {
+    max-width: 45%;
+    height:auto; 
+    padding-left: 12px; 
+    margin-top: 12px;
 }
 
 .author {
     text-align: center;
 }
 
+
+
+.emoji-menu {
+    list-style: none;
+    opacity: 100%;
+}
+
+.emoji-1 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-1:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-2 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-2:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-3 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-3:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-4 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-4:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-5 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    margin-left: 190px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-5:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    margin-left: 190px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+.hover-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: -120px;
+    padding: 9px 9px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+
+.hover-icon:hover {
+    
+    background-color: #374248;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.imageBox {
+    text-align: center;  
+  }
+  
+  .imageBox .emoji-menu  {
+    text-align: center;   
+    opacity: 0.35;
+    display: none;
+  }
+
+  .imageBox:hover .emoji-menu { 
+    opacity: 1;
+    display: block;
+  }
+
+  .hover-point {
+    position: relative;
+    right: 0;
+    display: inline-block;
+  }
+
+
 @media only screen and (max-width: 768px) {
     
     .alpha-title {
         text-align: center;
-        color: #0038a8;
+        color: #128C7E;
     
         font-size: 14px;
         margin-block-start: 0.67em;
@@ -98,15 +303,43 @@ body {
         margin-inline-start: 0px;
         margin-inline-end: 0px;
     }
+
+    .button {
+        background-color: #128C7E;
+        border-radius: 25px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px 30px;
+        text-decoration: none;
+    }
     
+    .button-container {
+        text-align: center;
+    }
+    
+    .button:hover {
+        background-color: #149989;
+        border-radius: 25px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px 30px;
+        text-decoration: none;
+    }
+
+
     .alpha-info-title {
-    
-        color: #0038a8;
- 
+        color: #128C7E;
         padding-left: 12px;
-        
-    
-        
+            
+    }
+    .alpha-info-title-2 {
+        color: #128C7E;
+        padding-left: 12px;
+        position: relative;
+ 
+        margin-top: 10px;
     }
     
     .trigger-box {
@@ -114,7 +347,7 @@ body {
         width: 97%;
         margin: 10px;
         padding: 10px 10px;
-        border: 2px solid #0038a8;
+        border: 2px solid #128C7E;
         
 
             }
@@ -133,7 +366,7 @@ body {
         width: 97%;
         margin: 10px;
         padding: 10px;
-        border: 2px solid #0038a8;
+        border: 2px solid #128C7E;
     
         
     }
@@ -143,7 +376,7 @@ body {
         width: 97%;
         margin: 10px;
         padding: 10px;
-        border: 2px solid #0038a8;
+        border: 2px solid #128C7E;
     }
     
     .loops-modes-box {
@@ -151,16 +384,181 @@ body {
         width: 97%;
         margin: 10px;
         padding: 10px;
-        border: 2px solid #0038a8;
+        border: 2px solid #128C7E;
     }
     
     .alpha-images-title {
-        color: #0038a8;
+        color: #128C7E;
         padding-left: 6px;
+        
     }
     
+    .alpha-image-1 {
+        max-width: 60%;
+        height:auto; 
+        padding-left: 12px;
+    }
+    
+    .alpha-image-2 {
+        max-width: 60%;
+        height:auto; 
+        padding-left: 12px;
+        margin-top: 7px;
+    }
+    
+    .alpha-image-3 {
+        max-width: 60%;
+        height:auto; 
+        padding-left: 12px; 
+        margin-top: 7px;
+    }
+
     .author {
         text-align: center;
-    }
-       
+    }     
+    
+    
+
+.emoji-menu {
+    list-style: none;
+    opacity: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.emoji-1 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-1:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-2 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-2:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-3 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-3:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-4 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-4:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.emoji-5 {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.35;
+    transition: opacity 1s;
+}
+
+.emoji-5:hover {
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.hover-icon {
+    width: 44px;
+    height: 44px;
+    margin: 23px;
+    padding: 9px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+
+.hover-icon:hover {
+    
+    background-color: #374248;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.imageBox {
+    text-align: center;   
+    margin-top: 10px;
+  }
+  
+  .imageBox .emoji-menu {
+    text-align: center;   
+    display: none;
+    opacity: 0.35;
+  }
+
+  .imageBox:hover .emoji-menu { 
+    opacity: 1;
+    display: block;
+  }
+
 }

@@ -12,28 +12,62 @@
     <link rel="stylesheet" href="styles.css">
 
 
+    <div class="alpha-title">
+        <h1>IDM-241 Microinteractions</h1>
+    </div>
+
+    <div class="button-container">
+    <a class="button" type="button" href="https://web.whatsapp.com/" target="_blank">
+        View Original Interface
+      </a>
+    </div> 
+
 </head>
 
 
 <body>
-
-      
-            <div class="alpha-title">
-                <h1>IDM-241 Microinteractions</h1>
-            </div>
-   
+    
+          
             <div class="alpha-info-title">
-                <h2>Alpha Interaction Details - WhatsApp</h2>
+                <h2>WhatsApp Emoji Alpha Interaction</h2>
+            </div>
+
+
+            
+            <div class="imageBox">
+                <div class="hover-point">
+                    <img class="hover-icon" src="./graphics/Blank-Face.png">
+
+                    <div class="emoji-menu">
+
+                        <img class="emoji-5" src="./graphics/Sparkle.png">
+                        <img class="emoji-4" src="./graphics/Skull.png">
+                        <img class="emoji-3" src="./graphics/Heart.png">
+                        <img class="emoji-2" src="./graphics/Laugh.png">
+                        <img class="emoji-1" src="./graphics/Smiley.png">
+                
+                    </div>
+            
+               
+                  
+                </div>
+                
+              </div>  
+
+          
+            <div class="alpha-info-title-2">
+                <h2>Alpha Interaction Details</h2>
             </div>
 
             <div class="container">
 
+                
             <div class="trigger-box">
                 <h3>Triggers</h3>
             <div class="trigger-info">
                 <ul class="info-box1">
                     <li>
-                        Clicking or tapping the paperclip icon on the bottom of the screen, left of the "Type 
+                       Hovering over the smiley face icon on the bottom of the screen, left of the "Type 
                         a message" text
                     </li>
                 </ul>
@@ -47,31 +81,33 @@
             <div class="rules-info">
                 <ul class="info-box2"> 
                     <li>
-                        The icons stay up until you've used one of them or clicked away from them.
+                        The emojis stay up until you've used one of them, clicked away from them, or clicked the smiley face icon that was hovered over to have 
+                        the emojis appear.
                     </li>
                     <li>
-                        The opacity of each icon appearing greatens from a starting point of 35% and fills to 100% in less than a second.
+                        The opacity of each emoji appearing greatens from a starting point of 35% and fills to 100% in less than a second.
                     </li>
                     <li>
-                        The icons appear vertically, with the first icon appearing being the bottom-most icon
-                        and the last icon appearing being the top-most one. The icon menu closes the same way as it appears but in reverse.
+                        Five emojis appear vertically, with the first emoji, the most used, appearing being the bottom-most emoji
+                        and the last emoji, the least used of the five most commonly used, appearing being the top-most one. 
+                        The emoji menu closes the same way as it appears but in reverse.
                     </li>
                     <li>
-                        The cursor changes to a pointer when hovering over the icons or the paperclip.
+                        The cursor changes to a pointer when hovering over the the smiley face icon that was hovered over to have 
+                        the emojis appear. It also changes to a pointer when the emojis are hovered over.
                     </li>
                     <li>
-                        A white rounded rectangle, with text inside about the action of each icon if clicked, 
-                        appears when hovering over any of the icons. It will disappear if another icon is hovered over,
-                        if nothing is being hovered over, or if the icon menu has been closed or used. 
+                        A grey circle appears behind the original smiley face icon while the emoji menu is in use. More specifically, the emoji menu stays in use
+                        until the user clicks away from it, clicks the smiley face icon or clicks an emoji from those listed.
                     </li>
-             
                 </ul>
             </div>
                 <div class="backend"> 
                 <h4>Back-end</h4>
                 <ul>
                     <li>
-                        None.
+                       Database has to store and retrieve users most frequently used emojis for their top 5 'favorites' to be shown
+                       in the emoji menu.
                     </li>
                 </ul>
             </div>
@@ -83,8 +119,24 @@
             <div class="feedback-info">
                 <ul class="info-box3">
                     <li>
-                        A white rounded rectangle, with text inside about the action of each icon if clicked, 
-                        appears when hovering over any of the icons. 
+                        The users five most commonly used emojis are displayed, stacked vertically with 10px spacing from one another, after hovering over the the 
+                        smiley face icon that was hovered over to have the emojis appear.
+                    </li>
+                    <li>
+                        The opacity of each emoji appearing greatens from a starting point of 35% and fills to 100% in less than a second.
+                    </li>
+                    <li>
+                        Five emojis appear vertically, with the first emoji, the most used, appearing being the bottom-most emoji
+                        and the last emoji, the least used of the five most commonly used, appearing being the top-most one. 
+                        The emoji menu closes the same way as it appears but in reverse.
+                    </li>
+                    <li>
+                        The cursor changes to a pointer when hovering over the the smiley face icon that was hovered over to have 
+                        the emojis appear. It also changes to a pointer when the emojis are hovered over.
+                    </li>
+                    <li>
+                        A grey circle appears behind the original smiley face icon while the emoji menu is in use. More specifically, the emoji menu stays in use
+                        until the user clicks away from it, clicks the smiley face icon or clicks an emoji from those listed.
                     </li>
                 </ul>
             </div>
@@ -101,20 +153,22 @@
             </div>
         </div>
 
-    </div>
-            
+    </div>    
    
             <div class="alpha-images-title">
-                <h2>Alpha Interaction Visuals</h2>
+                <h2>Alpha Interaction Visuals - Favorite Emojis Appear on Hover</h2>
             </div>
 
             <div class="alpha-images">
-                <img src="./graphics/Action-1.jpeg" style="max-width:45%;height:auto;">
-                <img src="./graphics/Action-2.jpeg" style="max-width:45%;height:auto;">
-                <img src="./graphics/Action-3.jpeg" style="max-width:45%;height:auto;">
+                <img class="alpha-image-1" src="./graphics/Action-1.jpg">
+                <img class="alpha-image-2" src="./graphics/Action-2.jpg">
+                <img class="alpha-image-3" src="./graphics/Action-3.jpg">
             </div>
 
             <p class="author">Clay Logsdon <br> cml492@drexel.edu</p> 
+          
+
+              <!--Replace ul class with div class= if wanting to do images 1 by 1-->
 
 </body>
 
