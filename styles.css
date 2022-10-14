@@ -49,7 +49,7 @@ body {
 .alpha-info-title-2 {
     color: #128C7E;
     padding-left: 12px;
-    margin-top: 80px;
+    margin-top: 160px;
     position: relative;
     
 }
@@ -60,18 +60,8 @@ body {
     margin: 10px;
     padding: 10px;
     border: 2px solid #128C7E;
- 
 
-    /*  
-
-  margin-left: 350px;
-
-    display: inline-block;
-    position: relative;
-
-    change classes of other boxes to trigger-box if desiring side-by-side boxes
-    */
-        }
+}
 
 
 
@@ -254,7 +244,7 @@ body {
 .hover-icon {
     width: 44px;
     height: 44px;
-    margin-bottom: -120px;
+    margin-bottom: -115px;
     padding: 9px 9px;
     border-radius: 100px;
     text-decoration: none;
@@ -277,6 +267,7 @@ body {
     text-align: center;   
     opacity: 0.35;
     display: none;
+  
   }
 
   .imageBox:hover .emoji-menu { 
@@ -285,9 +276,10 @@ body {
   }
 
   .hover-point {
-    position: relative;
+    position: absolute;
+    left: 0;
     right: 0;
-    display: inline-block;
+
   }
 
 
@@ -538,7 +530,6 @@ body {
 
 
 .hover-icon:hover {
-    
     background-color: #374248;
     text-decoration: none;
     cursor: pointer;
@@ -559,6 +550,12 @@ body {
   .imageBox:hover .emoji-menu { 
     opacity: 1;
     display: block;
+  }
+
+  .hover-point {
+    position: relative;
+    left: 0;
+    right: 0;
   }
 
 }
