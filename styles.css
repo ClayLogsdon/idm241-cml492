@@ -15,6 +15,8 @@ body {
     margin-inline-end: 0px;
 }
 
+
+
 .button {
     background-color: #128C7E;
     border-radius: 25px;
@@ -330,12 +332,12 @@ body {
         color: #128C7E;
         padding-left: 12px;
         position: relative;
- 
-        margin-top: 10px;
+    
+        top: 10px;
     }
     
     .trigger-box {
-        box-sizing: content-box;
+  
         width: 97%;
         margin: 10px;
         padding: 10px 10px;
@@ -347,6 +349,7 @@ body {
     
     
     .info-box1 {
+
         margin-block-start: 0.67em;
         margin-block-end: 0.67em;
         margin-inline-start: 0px;
@@ -354,6 +357,7 @@ body {
     }
     
     .rules-box {
+      
         box-sizing: content-box;
         width: 97%;
         margin: 10px;
@@ -408,154 +412,7 @@ body {
     .author {
         text-align: center;
     }     
-    
-    
-
-.emoji-menu {
-    list-style: none;
-    opacity: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.emoji-1 {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    opacity: 0.35;
-    transition: opacity 1s;
-}
-
-.emoji-1:hover {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-.emoji-2 {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    opacity: 0.35;
-    transition: opacity 1s;
-}
-
-.emoji-2:hover {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-.emoji-3 {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    opacity: 0.35;
-    transition: opacity 1s;
-}
-
-.emoji-3:hover {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-.emoji-4 {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    opacity: 0.35;
-    transition: opacity 1s;
-}
-
-.emoji-4:hover {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-.emoji-5 {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    opacity: 0.35;
-    transition: opacity 1s;
-}
-
-.emoji-5:hover {
-    text-decoration: none;
-    width: 44px;
-    height: 44px;
-    margin-bottom: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-.hover-icon {
-    width: 44px;
-    height: 44px;
-    margin: 23px;
-    padding: 9px;
-    border-radius: 100px;
-    text-decoration: none;
-}
 
 
-.hover-icon:hover {
-    background-color: #374248;
-    text-decoration: none;
-    cursor: pointer;
-    
-}
-
-.imageBox {
-    text-align: center;   
-    margin-top: 10px;
-  }
-  
-  .imageBox .emoji-menu {
-    text-align: center;   
-    display: none;
-    opacity: 0.35;
-  }
-
-  .imageBox:hover .emoji-menu { 
-    opacity: 1;
-    display: block;
-  }
-
-  .hover-point {
-    position: relative;
-    left: 0;
-    right: 0;
-  }
 
 }
