@@ -15,8 +15,6 @@ body {
     margin-inline-end: 0px;
 }
 
-
-
 .button {
     background-color: #128C7E;
     border-radius: 25px;
@@ -130,8 +128,6 @@ body {
     text-align: center;
 }
 
-
-
 .emoji-menu {
     list-style: none;
     opacity: 100%;
@@ -145,6 +141,7 @@ body {
     cursor: pointer;
     opacity: 0.35;
     transition: opacity 1s;
+    transition: transform 1s;
 }
 
 .emoji-1:hover {
@@ -152,9 +149,11 @@ body {
     width: 44px;
     height: 44px;
     margin-bottom: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;
     cursor: pointer;
+    opacity: 1;
+    transition-duration: 2s;
+    transform: translateY(-10px);
+
 }
 
 .emoji-2 {
@@ -165,6 +164,7 @@ body {
     cursor: pointer;
     opacity: 0.35;
     transition: opacity 1s;
+    transition: transform 1s;
 }
 
 .emoji-2:hover {
@@ -172,9 +172,10 @@ body {
     width: 44px;
     height: 44px;
     margin-bottom: 10px;
-    opacity: 1;
-    transition-duration: 0.5s;
     cursor: pointer;
+    opacity: 1;
+    transition-duration: 2s;
+    transform: translateY(-10px);
 }
 
 .emoji-3 {
@@ -185,6 +186,7 @@ body {
     cursor: pointer;
     opacity: 0.35;
     transition: opacity 1s;
+    transition: transform 1s;
 }
 
 .emoji-3:hover {
@@ -195,6 +197,8 @@ body {
     opacity: 1;
     transition-duration: 0.5s;
     cursor: pointer;
+    transition-duration: 2s;
+    transform: translateY(-10px);
 }
 
 .emoji-4 {
@@ -205,6 +209,7 @@ body {
     cursor: pointer;
     opacity: 0.35;
     transition: opacity 1s;
+    transition: transform 1s;
 }
 
 .emoji-4:hover {
@@ -213,8 +218,9 @@ body {
     height: 44px;
     margin-bottom: 10px;
     opacity: 1;
-    transition-duration: 0.5s;
     cursor: pointer;
+    transition-duration: 2s;
+    transform: translateY(-10px);
 }
 
 .emoji-5 {
@@ -226,6 +232,7 @@ body {
     cursor: pointer;
     opacity: 0.35;
     transition: opacity 1s;
+    transition: transform 1s;
 }
 
 .emoji-5:hover {
@@ -235,13 +242,10 @@ body {
     margin-bottom: 10px;
     margin-left: 190px;
     opacity: 1;
-    transition-duration: 0.5s;
     cursor: pointer;
+    transition-duration: 2s;
+    transform: translateY(-10px);
 }
-
-
-
-
 
 .hover-icon {
     width: 44px;
@@ -252,13 +256,10 @@ body {
     text-decoration: none;
 }
 
-
 .hover-icon:hover {
-    
     background-color: #374248;
     text-decoration: none;
     cursor: pointer;
-    
 }
 
 .imageBox {
@@ -269,7 +270,6 @@ body {
     text-align: center;   
     opacity: 0.35;
     display: none;
-  
   }
 
   .imageBox:hover .emoji-menu { 
@@ -285,6 +285,8 @@ body {
   }
 
 
+  
+  
 @media only screen and (max-width: 768px) {
     
     .alpha-title {
